@@ -1,0 +1,11 @@
+First
+about us box: #A1948E
+up coming: #88A2A5
+What we do: #4C5647
+Our men of God: #667D51
+
+Hero: #A1948E
+
+
+color: #ffffff
+background color:#88A2A5

@@ -1,0 +1,725 @@
+body {
+    background-color: white;
+    height: 100%;
+    margin: 0;
+}
+
+.logo>img {
+    height: 50px;
+    border-radius: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+    background-color: #C2C7CE;
+    opacity: 1;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    /* margin-bottom: 20px; */
+}
+
+.logo {
+    display: flex;
+    margin-left: 20px;
+    border-radius: 100px;
+}
+
+.logo2 {
+    height: 90px;
+    margin-top: -10px;
+    margin-right: 20px;
+    border-radius: 100px;
+}
+
+.list {
+    margin: 10px;
+}
+
+.list ul{
+    display: flex;
+    list-style: none;
+    padding-right:0px;
+    /* margin-right: 500px; */
+    width: 30vw;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.bot1 {
+    background-color: #A1948E;
+    color: white;
+    margin-top: -40px;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+
+.bot2 {
+    background-color: #88A2A5;
+    color: white;
+    margin-top: -40px;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+
+.bot3 {
+    background-color: #4C5647;
+    color: white;
+    margin-top: -40px;
+    border: none;
+    height: 30px;
+    width: 120px;
+}
+
+.bot4 {
+    background-color: #667D51;
+    color: white;
+    margin-top: -40px;
+    border: none;
+    height: 30px;
+    width: 140px;
+}
+
+
+.banner-section-1 {
+    background-image: url(../images/MazamazaImg/FB_IMG_1724071574717-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-image-1-container {
+    background-color: black;
+    opacity: 0.8;
+    height: 580px;
+    width: 350px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+
+.upper-section {
+    /* margin-top: 700px; */
+    margin-top: 30px;
+    background-color: #FFDB57;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    opacity: 0.6;
+    width: 300px;
+    height: 100px;
+}
+
+.text-section-1 {
+    justify-content: center;
+    text-align: center;
+}
+
+.middle-section {
+    background-color: #ED9F02;
+    opacity: 0.6;
+    width: 300px;
+    height: 80px;
+}
+
+.text-section-2 {
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.One-God {
+    font-size: 1.8em;
+    margin-top: -20px;
+}
+.OG2 {
+    margin-top: -26px;
+}
+
+.bottom-section {
+    margin-bottom: 70px;
+    background-color: #D8544F;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    opacity: 0.6;
+    width: 300px;
+    height: 700px;
+}
+
+.text-section-3 {
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.section-image-2-container {
+    background-color: none;
+    height: 120px;
+    width: 849px;
+    margin-top: -100px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-section {
+    background-color: #6C6774;
+    opacity: 0.8;
+    margin-left: 25px;
+    margin-top: -45px;
+    height: 80px;
+    width: 800px;
+}
+.second-text-1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 3.2em;
+    color: white;
+}
+
+.second-section {
+    background-color: #FF5757;
+    opacity: 0.7;
+    margin-left: 300px;
+    margin-top: -32px;
+    height: 35px;
+    width: 180px;
+}
+.second-section {
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.section-image-3-container {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    opacity: 0.8;
+    width: 500px;
+    height: 150px;
+}
+.third-text-1 {
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+}
+.third-text-2 {
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+}
+.lower {
+    font-size: 0.8em;
+}
+
+ /* .banner-images{
+    display: flex;
+    background-color: hsl(34, 14%, 57%, 0.6);
+}
+
+.banner-images-left > img{
+    opacity: 0.7;
+    height: 90vh;
+    width: 35vw;
+}
+
+.banner-images-right {
+    margin-top: 120px;
+    opacity: 0.7;
+}
+
+.banner-images-right > .img1{
+    display: block;
+    width:  63.7vw;
+}
+
+.banner-images-right > .img2{
+    width: 63.75vw;
+    height: 200px;
+} */
+
+.box1 {
+    width: 35%;
+    height: 100%;
+    background-color: #A19483;
+    opacity: 0.7;
+}
+
+/* .box1-0 {
+    background-image: url(../images/MazamazaImg/ONE\ GOD.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 400px;
+} */
+
+.box2 {
+    width: 65%;
+    height: 55%;
+    margin-bottom: 200px;
+    background-color: #A19483;
+    opacity: 0.7;
+    margin-top: 200px;
+}
+ 
+.banner2 {
+    /* background-image: url(../images/MazamazaImg/church\ b3.jfif); */
+    background: #88A2A5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    gap: 150px;
+    width: 100%;
+}
+
+.banner-b1 {
+    width: 22.73%;
+    height: 80%;
+    background: #667D51;
+}
+.banner-b2 {
+    width: 22.73%;
+    height: 80%;
+    background: #667D51;
+}
+.banner-b3 {
+    width: 22.73%;
+    height: 80%;
+    background: #667D51;
+}
+
+.banner3 {
+    /* background-image: url(../images/MazamazaImg/church\ b1.jfif); */
+    background: #667D51;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* gap: 40px; */
+    height: 90vh;
+    width: 100%;
+}
+.just {
+    font-size: 3.2em;
+    color: #C2C7CE;
+    margin-top: 60px;
+    margin-left: 250px;
+}
+.meet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner3-b1 {
+    /* background-color: white; */
+    border-radius: 200px;
+    /* opacity: 0.2; */
+    height: 70%;
+    width: 30%;
+    position: relative;
+}
+
+.priest1{
+    position: absolute;
+    left: 90;
+    top: 1350;
+    margin-top: 90px;
+    width: 280px;
+}
+.priest2{
+    position: absolute;
+    right: 30;
+    bottom: 40;
+    width: 300px;
+}
+.bishop{
+    position: absolute;
+    right: 90;
+    bottom: 59;
+    width: 300px;
+}
+.banner3-b2 {
+    /* background-color: white; */
+    border-radius: 700px;
+    /* opacity: 0.5; */
+    height: 90%;
+    width: 40%;
+}
+.banner3-b3 {
+    background-color: white;
+    border-radius: 200px;
+    opacity: 0.5;
+    height: 70%;
+    width: 30%;
+}
+
+.info1 {
+    background-color: #4C5647;
+    margin-top: 350px;
+    margin-left: 30px;
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 280px;
+}
+.info2 {
+    background-color: #4C5647;
+    margin-top: 350px;
+    margin-left: -20px;
+    color: white;
+    text-align: center;
+    height: 60px;
+    width: 400px;
+}
+.info3 {
+    background-color: #4C5647;
+    margin-top: 350px;
+    margin-left: 55px;
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 300px;
+}
+
+.banner4 {
+    /* background-image: url(../images/MazamazaImg/church\ b1.jfif); */
+    background: #4C5647;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 90vh;
+    width: 100%;
+}
+
+.banner4-b1 {
+    background-image: url(../images/MazamazaImg/Worship\ \(4\).png);
+    background-size: contain;
+    height: 76%;
+    width: 23%;
+}
+
+.banner4-b2 {
+    background-image: url(../images/MazamazaImg/FOR\ ME\ SERVICE.png);
+    background-size: contain;
+    height: 76%;
+    width: 23%;
+}
+
+.banner4-b3 {
+    background-image: url(../images/MazamazaImg/TWELVE\ BASKETS.png);
+    background-size: contain;
+    height: 76%;
+    width: 23%;
+}
+
+.banner4-b4 {
+    background-image: url(../images/MazamazaImg/click\ to\ join\ now!.png);
+    background-size: contain;
+    height: 76%;
+    width: 23%;
+}
+
+
+.carousel {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 70vh;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 30px;
+}
+.carouselImage {
+    width: 30%;
+    height: 70%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 70vh;
+    /* display: block; */
+}
+.carouselImage {
+    width: 30%;
+    height: 40%;
+}
+
+.carouselImage >img {
+    width: 100%;
+    height: 60vh;
+    /* display: block; */
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+/* .banner5 {
+    background-image: url(../images/MazamazaImg/church\ b2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -16px;
+    height: 825.2px;
+} */
+
+/* .box
+{
+    position: relative;
+    width: 380px;
+    height: 420px;
+    background: #1c1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.box::before
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,
+    transparent,#45f3ff,#45f3ff,#45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+.box::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,
+    transparent,#45f3ff,#45f3ff,#45f3ff);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+.borderline
+{
+    position: absolute;
+    top: 0;
+    inset: 0;
+}
+.borderline::before
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,
+    transparent,#ff2770, #ff2770,#ff2770);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -1.5s;
+}
+.borderline::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,
+    transparent,#ff2770, #ff2770,#ff2770);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -4.5s;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg)
+    }
+    100%
+    {
+        transform: rotate(360deg)
+    }
+}
+.box form
+{
+    position: absolute;
+    inset: 4px;
+    background: #222;
+    padding: 50px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+.box form h2
+{
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.box form .inputbox
+{
+    position: relative;
+    width: 300px;
+    margin-top: 35px;
+}
+.box form .inputbox input{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+}
+.box form .inputbox span
+{
+    position: absolute;
+    left: 0;
+    padding: 20px 0px 10px;
+    pointer-events: none;
+    color: #8f8f8f;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+.box form .inputbox input:valid~span,
+.box form .inputbox input:focus~span
+{
+    color: #fff;
+    font-size: 0.75em;
+    transform: translateY(-34px);
+}
+.box form .inputbox i
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.box form .inputbox input:valid~i,
+.box form .inputbox input:focus~i
+{
+   height: 44px; 
+}
+.box form .links
+{
+    display: flex;
+    justify-content: space-between;
+}
+.box form .links a
+{
+    margin: 10px 0;
+    font-size: 0.75em;
+    color: #8f8f8f;
+    text-decoration: none;
+}
+.box form .links a:hover
+.box form .links a:nth-child(2)
+{
+    color: #fff;
+}
+.box form button[type="submit"]
+{
+    border: none;
+    outline: none;
+    padding: 9px 25px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 100px;
+    margin-top: 10px;
+}
+.box form button[type="submit"]:active
+{
+    opacity: 0.8;
+} */
+
+footer {
+    background-color: #C2C7CE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+}
+.footers-text {
+    text-align: center;
+    font-size: 1.6em;
+}
+.footers-button {
+    background-color: #667D51;
+    margin-left: 200px;
+    border: none;
+    width: 100px;
+}

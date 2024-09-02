@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile Gaming Industry</title>
+    <style>
+        body{background-color: white; color: red;}
+        nav{display: flex; justify-content: space-between; background-color: rgb(102, 153, 102); color: yellow;}
+        img{height: 50px; border-radius: 50%;}
+        .navbar{display: flex; justify-content: space-evenly; width: 40%;}
+        .color{background-color: blue; border-radius: 10%; display: flex;}
+    </style>
+</head>
+<body>
+    <nav>
+       <div>
+           <img src="../images/MazamazaImg/codm2.jfif" alt="codm ghost pic">
+           <h1><p>Mobile Gaming Industry</p></h1>
+       </div>
+       <div class="navbar">
+           <p>Top games</p>
+           <p>A-Z LIST</p>
+           <P>Purchased Games</P>
+           <p>premiun Games</p>
+       </div>
+    </nav>
+       <h1><center><p>Welcome to MGI</p></center></h1>
+       <h2><b><u>Curses on web developing</u></b></h2>
+       <ul>
+           <li>
+               HTML
+           </li>
+           <li>
+               CSS
+           </li>
+           <li>
+               JAVASCRIPT
+           </li>
+           <li>
+               PYTHON
+           </li>
+        </ul>
+    <div class="color">
+       <form>
+         <table>
+            <tr>
+                <td>
+                    Name:
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter Name" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    password :
+                </td>
+                <td>
+                    <input type="password"  placeholder="Enter Password" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender :
+                </td>
+                <td>
+                    <input type="radio" name="Gender">Male
+                    <input type="radio" name="Gender">Female
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    Email :
+                </td>
+                <td>
+                    <input type="text" placeholder="Email" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone number :
+                </td>
+                <td>
+                    <select>
+                        <option>234</option>
+                        <option>235</option>
+                        <option>236</option>
+                        <option>237</option>
+                        <option>238</option>
+                        <option>239</option>
+                    </select>
+                    <input type="text"  placeholder="phone number" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <button type="submit"><a href="index.html">Submit</a></button>
+                </td>
+            </tr>
+          </table>
+       </form>
+
+    </div>
+    <input type="text" placeholder="first name" name="" id="fName">
+    <input type="text" placeholder="last name" name="" id="lName">
+    <input type="text" name="" id="mail" placeholder="enter your email address">
+    <button id="test" type="button">fire</button>
+    <script>
+        let firstName;
+        let lastName;
+        let email;
+
+        document.getElementById('test').addEventListener('click', print)
+
+        function print(e){
+            console.log("Before initialization: ", firstName);
+            console.log("before initialization: ", lastname);
+            console.log("before initialization: ", email);
+            
+
+            console.log("Hello world")
+    
+            firstName = document.getElementById('fName').value;
+            lastName = document.getElementById('lName').value
+            email = document.getElementById('mail').value
+    
+            console.log("After initialization: ", firstName)
+
+        }
+    </script>
+</body>
+</html>

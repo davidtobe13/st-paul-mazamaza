@@ -1,0 +1,140 @@
+.container {
+    background-color: black;
+    margin: 0;
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+}
+
+.logo>img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+    background-color: blue;
+    width: 100%;
+    height: 10vh;
+}
+
+.logo {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content:space-between;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.banner {
+    height: 90vh;
+    background-image: url(../images/AssignmentImg/school.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+
+.left-banner-section {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: yellow;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.right-banner-section {
+    margin-top: 50px;
+}
+
+.right-banner-section>img{
+    height: 400px;
+    width: 550px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: blue;
+    border-radius: 30px;
+    color: yellow;
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+}
+.about-us {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:blue;
+    color: yellow;
+    text-align: center;
+   
+}
+
+.about-us div{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 0;
+    padding: 20px;
+    justify-content: center;    
+    align-items: center;
+}
+
+.about-us hr{
+    color: yellow;
+    width:500px;
+}
+
+.service {
+    text-align: center;
+}
+
+.color1 {
+    background-color: blue;
+    color: white;
+}
+
+.color2 {
+    background-color: yellow;
+    color: white;
+}
+
+.color3 {
+    background-color: blue;
+    color: white;
+}
+
+.color4 {
+    background-color: yellow;
+    color: white;
+}
+
+.contact-us {
+    background-color: white;
+    color: blue;
+}
+
+.mid {
+    text-align: center;
+}
+
+.out-box {
+    background-color: blue;
+    /* margin-top: 0px; */
+    /* #574b4b */
+}
+
+.box {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 30px;
+    width: 300px;
+}

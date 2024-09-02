@@ -1,0 +1,280 @@
+body {
+    background-image: url(../images/AssignmentImg/color.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+}
+
+.logo>img {
+    height: 50px;
+    border-radius: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+    background-color: #C2C7CE;
+    opacity: 1;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    /* margin-bottom: 20px; */
+}
+
+.logo {
+    display: flex;
+    margin-left: 20px;
+    border-radius: 100px;
+}
+
+.logo2 {
+    height: 90px;
+    margin-top: -10px;
+    margin-right: 20px;
+    border-radius: 100px;
+}
+
+.list {
+    margin: 10px;
+}
+
+.list ul{
+    display: flex;
+    list-style: none;
+    padding-right:0px;
+    /* margin-right: 500px; */
+    width: 30vw;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.bot1 {
+    background-color: #A1948E;
+    color: white;
+    margin-top: -40px;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+
+.bot2 {
+    background-color: #88A2A5;
+    color: white;
+    margin-top: -40px;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+
+.bot3 {
+    background-color: #4C5647;
+    color: white;
+    margin-top: -40px;
+    border: none;
+    height: 30px;
+    width: 120px;
+}
+
+.bot4 {
+    background-color: #667D51;
+    color: white;
+    margin-top: -40px;
+    border: none;
+    height: 30px;
+    width: 140px;
+}
+
+
+.banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #A19483;
+    opacity: 0.3; */
+    background-image: url(../images/MazamazaImg/FB_IMG_1724071574717-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    margin-top: 64px;
+}
+
+/* .box0{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(34, 14%, 57%, 0.6);
+} */
+
+.box1 {
+    width: 35%;
+    height: 100%;
+    background-color: #A19483;
+    opacity: 0.7;
+}
+
+.box2 {
+    width: 65%;
+    height: 55%;
+    margin-bottom: 200px;
+    background-color: #A19483;
+    opacity: 0.7;
+    margin-top: 200px;
+}
+ 
+.banner2 {
+    /* background-image: url(../images/MazamazaImg/church\ b3.jfif); */
+    background-image: url(../images/AssignmentImg/color.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    gap: 150px;
+    width: 100%;
+}
+
+.banner-b1 {
+    width: 22.73%;
+    height: 80%;
+    background: #667D51;
+}
+.banner-b2 {
+    width: 22.73%;
+    height: 80%;
+    background: #667D51;
+}
+.banner-b3 {
+    width: 22.73%;
+    height: 80%;
+    background: #667D51;
+}
+
+
+
+
+
+
+.banner3 {
+    /* background-image: url(../images/MazamazaImg/church\ b1.jfif); */
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.banner4 {
+    /* background-image: url(../images/MazamazaImg/church\ b1.jfif); */
+    background-image: url(../images/AssignmentImg/color.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 90vh;
+    width: 100%;
+}
+
+.banner4-b1 {
+    background-image: url(../images/MazamazaImg/Worship\ \(4\).png);
+    background-size: contain;
+    height: 76%;
+    width: 23%;
+}
+
+.banner4-b2 {
+    background-image: url(../images/MazamazaImg/FOR\ ME\ SERVICE.png);
+    background-size: contain;
+    height: 76%;
+    width: 23%;
+}
+
+.banner4-b3 {
+    background-image: url(../images/MazamazaImg/TWELVE\ BASKETS.png);
+    background-size: contain;
+    height: 76%;
+    width: 23%;
+}
+
+.banner4-b4 {
+    background-color: #C2C7CE;
+    height: 76%;
+    width: 23%;
+}
+
+
+
+.carousel {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 70vh;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 30px;
+}
+.carouselImage {
+    width: 30%;
+    height: 70%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 70vh;
+    /* display: block; */
+}
+.carouselImage {
+    width: 30%;
+    height: 40%;
+}
+
+.carouselImage >img {
+    width: 100%;
+    height: 60vh;
+    /* display: block; */
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

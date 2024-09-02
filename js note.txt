@@ -1,0 +1,7 @@
+Array:- contains a list of one or more datatypes
+Method:- is an acton that can be performed ona datatype
+Properties:- are characteristics of an object
+
+control flow
+conditionals:if,  else if, else, switch
+loops: for, while, do while, for each
